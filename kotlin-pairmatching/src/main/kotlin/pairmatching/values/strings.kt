@@ -29,3 +29,13 @@ const val NOTICE_INITIALIZATION_MESSAGE = "초기화 되었습니다."
 // rematch option
 const val REMATCH_MESSAGE = "네"
 const val NOT_REMATCH_MESSAGE = "아니오"
+
+// input condition message
+private const val REMATCH_OPTION_CONDITION_MESSAGE = "'네', '아니오' 둘 중 하나만 선택할 수 있습니다."
+private const val FUNCTION_OPTION_CONDITION_MESSAGE = "'1', '2', '3', 'Q'에 해당하는 네가지 기능 중 하나만 선택할 수 있습니다."
+
+// error message
+private const val ERROR_MESSAGE = "[ERROR] "
+
+const val REMATCH_OPTION_INPUT_ERROR_MESSAGE = ERROR_MESSAGE + REMATCH_OPTION_CONDITION_MESSAGE
+const val FUNCTION_OPTION_INPUT_ERROR_MESSAGE = ERROR_MESSAGE + FUNCTION_OPTION_CONDITION_MESSAGE
