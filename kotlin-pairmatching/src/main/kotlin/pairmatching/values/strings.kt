@@ -25,3 +25,7 @@ const val NOTICE_COURSE_INFORMATION_MESSAGE = """###############################
 """
 const val NOTICE_MATCHING_RESULT_MESSAGE = "페어 매칭 결과입니다."
 const val NOTICE_INITIALIZATION_MESSAGE = "초기화 되었습니다."
+
+// rematch option
+const val REMATCH_MESSAGE = "네"
+const val NOT_REMATCH_MESSAGE = "아니오"
