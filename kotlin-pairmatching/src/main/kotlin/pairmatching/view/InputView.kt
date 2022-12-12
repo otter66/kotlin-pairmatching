@@ -10,6 +10,7 @@ class InputView(
     fun readFunctionOption(): String {
         try {
             val input = readln()
+            println()
             validator.inspectFunctionOption(input)
             return input
         } catch (e: IllegalArgumentException) {
@@ -19,6 +20,7 @@ class InputView(
 
     fun readRematchOption(): Boolean {
         val input = readln()
+        println()
         validator.inspectRematchOption(input)
         return input == REMATCH_MESSAGE
     }
